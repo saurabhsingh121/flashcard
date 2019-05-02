@@ -1,0 +1,40 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "online flashcard management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhsingh121/flashcard.git"
+  },
+  "keywords": [
+    "flashcard",
+    "nodejs",
+    "online",
+    "card",
+    "creation",
+    "mongodb"
+  ],
+  "author": "Saurabh Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saurabhsingh121/flashcard/issues"
+  },
+  "homepage": "https://github.com/saurabhsingh121/flashcard#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
